@@ -2,51 +2,55 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
+    background-color: #F5F5DC;
 }
 
 header {
-    background-color: #7C4700;
-    color: #fff;
-    padding: 10px 0;
+    background-color: #DEB887;
+    color: white;
+    padding: 50px 50;
     text-align: center;
-    border-radius:10px;
 }
 
-header h1 {
-    margin: 0;
-
-}
-
-nav a {
-    color : white;
-
-}
-
-section {
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px;
 }
 
-.product {
-    border: 1px solid ##DBCCA9;
-    padding: 5px;
+h1, h2 {
+    color: #333;
+}
+
+.profile-img {
+    width: 180px;
+    border-radius: 80%;
+    display: block;
+    margin: 20px auto;
+}
+
+.skills-list, .portfolio-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill, .portfolio-item {
+    background-color:#FFFFCC
+    flex: 1;
     margin: 10px;
-    display: inline-block;
-    width: 200px;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
     text-align: center;
-    border-radius:15px;
 }
 
-.product img {
-    max-width: 100%;
-    height: auto;
-}
-
-footer {
-    background-color: #997950;
-    color: #362312;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.contact, .portfolio-item{
+flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    text-align: center;   
 }
