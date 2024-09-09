@@ -5,37 +5,37 @@ body {
     line-height: 1.6;
     background-color: #F5F5DC;
 }
-
+ 
 header {
     background-color: #DEB887;
     color: white;
     padding: 50px 50;
     text-align: center;
 }
-
+ 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
-
+ 
 h1, h2 {
     color: #333;
 }
-
+ 
 .profile-img {
     width: 180px;
     border-radius: 80%;
     display: block;
     margin: 20px auto;
 }
-
+ 
 .skills-list, .portfolio-list {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
+ 
 .skill, .portfolio-item {
     background-color:#FFFFCC
     flex: 1;
@@ -45,7 +45,7 @@ h1, h2 {
     border-radius: 10px;
     text-align: center;
 }
-
+ 
 .contact, .portfolio-item{
 flex: 1;
     margin: 10px;
